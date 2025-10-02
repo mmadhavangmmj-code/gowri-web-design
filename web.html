@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Web Developer | Designer | Creator</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>Hello! I'm a web developer passionate about creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>Responsive Portfolio Website</li>
+        <li>JavaScript Calculator</li>
+        <li>React To-Do App</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:m parvatha gowri@example.com">m parvatha gowri@example.com</a></p>
+      <button onclick="alert('Thank you for reaching out!')">Say Hello</button>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 m parvatha gowri. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
